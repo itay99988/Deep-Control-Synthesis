@@ -1,0 +1,1000 @@
+Chosen hyperparameters for training:
+{'history_len': 2, 'timesteps_per_batch': 4000, 'max_timesteps_per_episode': 25, 'gamma': 0.99, 'n_updates_per_iteration': 10, 'lr': 0.01, 'clip': 0.2, 'total_timesteps': 1500000}
+Training
+Training from scratch.
+Learning... Running 25 timesteps per episode, 4000 timesteps per batch for a total of 1500000 timesteps
+tensor([0.2706, 0.2224, 0.2379, 0.2691], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #1 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -21.24
+Average Loss: 0.23722
+Timesteps So Far: 4000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2610, 0.2343, 0.2442, 0.2606], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #2 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -21.36
+Average Loss: 0.19561
+Timesteps So Far: 8000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2368, 0.2390, 0.2652, 0.2590], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #3 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.95
+Average Loss: 0.06744
+Timesteps So Far: 12000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2036, 0.2443, 0.2984, 0.2537], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #4 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.78
+Average Loss: -0.00031
+Timesteps So Far: 16000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1953, 0.2469, 0.3079, 0.2499], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #5 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.51
+Average Loss: -0.01676
+Timesteps So Far: 20000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2164, 0.2455, 0.2875, 0.2506], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #6 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -21.41
+Average Loss: -0.05534
+Timesteps So Far: 24000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2549, 0.2372, 0.2541, 0.2538], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #7 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -21.09
+Average Loss: -0.05152
+Timesteps So Far: 28000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2581, 0.2426, 0.2466, 0.2526], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #8 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -21.21
+Average Loss: -0.05271
+Timesteps So Far: 32000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2614, 0.2458, 0.2397, 0.2531], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #9 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.84
+Average Loss: -0.05256
+Timesteps So Far: 36000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2579, 0.2475, 0.2387, 0.2560], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #10 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -21.12
+Average Loss: -0.05521
+Timesteps So Far: 40000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2580, 0.2463, 0.2411, 0.2546], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #11 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -21.14
+Average Loss: -0.06018
+Timesteps So Far: 44000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2568, 0.2473, 0.2424, 0.2536], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #12 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -21.11
+Average Loss: -0.04732
+Timesteps So Far: 48000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2474, 0.2526, 0.2471, 0.2529], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #13 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.66
+Average Loss: -0.04609
+Timesteps So Far: 52000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2434, 0.2570, 0.2471, 0.2526], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #14 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.46
+Average Loss: -0.03605
+Timesteps So Far: 56000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2438, 0.2513, 0.2533, 0.2516], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #15 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -21.16
+Average Loss: -0.05008
+Timesteps So Far: 60000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2398, 0.2415, 0.2600, 0.2587], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #16 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.55
+Average Loss: -0.04802
+Timesteps So Far: 64000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2393, 0.2477, 0.2530, 0.2600], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #17 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.61
+Average Loss: -0.03765
+Timesteps So Far: 68000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2493, 0.2506, 0.2490, 0.2510], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #18 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.8
+Average Loss: -0.04571
+Timesteps So Far: 72000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2441, 0.2527, 0.2557, 0.2476], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #19 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.76
+Average Loss: -0.04654
+Timesteps So Far: 76000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2395, 0.2549, 0.2512, 0.2544], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #20 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.54
+Average Loss: -0.04223
+Timesteps So Far: 80000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2529, 0.2439, 0.2494, 0.2539], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #21 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.45
+Average Loss: -0.04485
+Timesteps So Far: 84000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2435, 0.2626, 0.2352, 0.2587], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #22 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.88
+Average Loss: -0.04365
+Timesteps So Far: 88000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2368, 0.2690, 0.2391, 0.2552], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #23 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.69
+Average Loss: -0.03383
+Timesteps So Far: 92000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2428, 0.2734, 0.2445, 0.2394], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #24 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.85
+Average Loss: -0.0386
+Timesteps So Far: 96000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2446, 0.2702, 0.2432, 0.2420], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #25 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.39
+Average Loss: -0.04042
+Timesteps So Far: 100000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2430, 0.2717, 0.2399, 0.2454], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #26 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -20.68
+Average Loss: -0.02774
+Timesteps So Far: 104000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2412, 0.2664, 0.2435, 0.2488], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #27 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.95
+Average Loss: -0.0378
+Timesteps So Far: 108000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2285, 0.2731, 0.2476, 0.2508], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #28 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.75
+Average Loss: -0.03356
+Timesteps So Far: 112000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2304, 0.2867, 0.2478, 0.2351], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #29 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.91
+Average Loss: -0.02866
+Timesteps So Far: 116000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2261, 0.3103, 0.2391, 0.2245], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #30 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -18.95
+Average Loss: -0.03923
+Timesteps So Far: 120000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.2090, 0.3527, 0.2236, 0.2148], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #31 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.1
+Average Loss: -0.02323
+Timesteps So Far: 124000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1923, 0.3802, 0.2175, 0.2100], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #32 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.51
+Average Loss: -0.02915
+Timesteps So Far: 128000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1876, 0.3967, 0.2121, 0.2036], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #33 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.21
+Average Loss: -0.02981
+Timesteps So Far: 132000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1879, 0.4178, 0.2074, 0.1870], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #34 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.36
+Average Loss: -0.02969
+Timesteps So Far: 136000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1836, 0.4236, 0.2035, 0.1893], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #35 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.02
+Average Loss: -0.0294
+Timesteps So Far: 140000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1852, 0.4199, 0.2047, 0.1902], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #36 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.06
+Average Loss: -0.03151
+Timesteps So Far: 144000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1795, 0.4436, 0.2082, 0.1687], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #37 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -18.54
+Average Loss: -0.03876
+Timesteps So Far: 148000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1781, 0.4600, 0.1990, 0.1628], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #38 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -18.06
+Average Loss: -0.03375
+Timesteps So Far: 152000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1815, 0.4584, 0.1969, 0.1632], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #39 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -18.32
+Average Loss: -0.03959
+Timesteps So Far: 156000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1817, 0.4611, 0.1932, 0.1640], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #40 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -18.9
+Average Loss: -0.03879
+Timesteps So Far: 160000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1697, 0.4814, 0.1906, 0.1583], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #41 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -19.05
+Average Loss: -0.02576
+Timesteps So Far: 164000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1587, 0.4802, 0.1943, 0.1668], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #42 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -17.26
+Average Loss: -0.04078
+Timesteps So Far: 168000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1587, 0.4791, 0.1966, 0.1656], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #43 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -17.89
+Average Loss: -0.03432
+Timesteps So Far: 172000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1584, 0.4820, 0.1972, 0.1624], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #44 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -18.06
+Average Loss: -0.03945
+Timesteps So Far: 176000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1563, 0.4884, 0.1915, 0.1638], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #45 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -17.6
+Average Loss: -0.03261
+Timesteps So Far: 180000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1574, 0.4941, 0.1930, 0.1555], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #46 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -17.68
+Average Loss: -0.04205
+Timesteps So Far: 184000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1553, 0.5060, 0.1845, 0.1542], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #47 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -17.26
+Average Loss: -0.03862
+Timesteps So Far: 188000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1452, 0.5207, 0.1836, 0.1505], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #48 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -17.86
+Average Loss: -0.03633
+Timesteps So Far: 192000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1405, 0.5299, 0.1807, 0.1488], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #49 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -15.8
+Average Loss: -0.04469
+Timesteps So Far: 196000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1321, 0.5469, 0.1752, 0.1458], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #50 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -15.99
+Average Loss: -0.04034
+Timesteps So Far: 200000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1240, 0.5634, 0.1712, 0.1413], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #51 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -16.12
+Average Loss: -0.04108
+Timesteps So Far: 204000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1142, 0.5779, 0.1690, 0.1389], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #52 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -14.81
+Average Loss: -0.04565
+Timesteps So Far: 208000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1118, 0.5885, 0.1669, 0.1328], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #53 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -14.19
+Average Loss: -0.04715
+Timesteps So Far: 212000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.1049, 0.6095, 0.1592, 0.1264], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #54 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -13.84
+Average Loss: -0.04648
+Timesteps So Far: 216000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0921, 0.6346, 0.1599, 0.1134], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #55 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -12.95
+Average Loss: -0.04454
+Timesteps So Far: 220000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0789, 0.6745, 0.1542, 0.0925], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #56 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -12.14
+Average Loss: -0.04142
+Timesteps So Far: 224000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0655, 0.7164, 0.1382, 0.0798], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #57 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -8.32
+Average Loss: -0.04953
+Timesteps So Far: 228000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0521, 0.7568, 0.1178, 0.0733], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #58 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -10.39
+Average Loss: -0.02941
+Timesteps So Far: 232000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0375, 0.8069, 0.0990, 0.0565], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #59 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: -6.41
+Average Loss: -0.04465
+Timesteps So Far: 236000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0162, 0.9162, 0.0426, 0.0250], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #60 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 1.09
+Average Loss: -0.05192
+Timesteps So Far: 240000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0075, 0.9609, 0.0193, 0.0124], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #61 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 8.02
+Average Loss: -0.03592
+Timesteps So Far: 244000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0047, 0.9753, 0.0117, 0.0083], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #62 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 10.19
+Average Loss: -0.03825
+Timesteps So Far: 248000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0035, 0.9819, 0.0087, 0.0058], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #63 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 12.46
+Average Loss: -0.01969
+Timesteps So Far: 252000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0027, 0.9850, 0.0070, 0.0053], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #64 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 12.15
+Average Loss: -0.02585
+Timesteps So Far: 256000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0018, 0.9869, 0.0065, 0.0048], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #65 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 13.84
+Average Loss: -0.01261
+Timesteps So Far: 260000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0021, 0.9854, 0.0074, 0.0051], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #66 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 13.48
+Average Loss: -0.01541
+Timesteps So Far: 264000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0022, 0.9844, 0.0080, 0.0054], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #67 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 12.55
+Average Loss: -0.01886
+Timesteps So Far: 268000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0021, 0.9853, 0.0075, 0.0051], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #68 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 14.01
+Average Loss: -0.02312
+Timesteps So Far: 272000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0018, 0.9870, 0.0064, 0.0049], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #69 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 12.94
+Average Loss: -0.02084
+Timesteps So Far: 276000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0012, 0.9903, 0.0053, 0.0031], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #70 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 14.04
+Average Loss: -0.02132
+Timesteps So Far: 280000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([0.0010, 0.9913, 0.0052, 0.0025], grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #71 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 14.01
+Average Loss: -0.04003
+Timesteps So Far: 284000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([9.5925e-04, 9.8933e-01, 7.2415e-03, 2.4677e-03],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #72 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 15.79
+Average Loss: -0.04121
+Timesteps So Far: 288000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([8.0011e-04, 9.8762e-01, 9.3530e-03, 2.2232e-03],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #73 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 16.34
+Average Loss: -0.0307
+Timesteps So Far: 292000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([3.6096e-04, 9.9340e-01, 5.1766e-03, 1.0662e-03],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #74 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 16.96
+Average Loss: -0.01346
+Timesteps So Far: 296000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([1.9361e-04, 9.9510e-01, 4.1588e-03, 5.5212e-04],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #75 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 18.27
+Average Loss: -0.0103
+Timesteps So Far: 300000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([1.6986e-04, 9.9671e-01, 2.6633e-03, 4.5554e-04],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #76 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 19.84
+Average Loss: -0.01225
+Timesteps So Far: 304000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([1.6781e-04, 9.9714e-01, 2.2151e-03, 4.7816e-04],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #77 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 19.55
+Average Loss: -0.01148
+Timesteps So Far: 308000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([1.7511e-04, 9.9744e-01, 1.9220e-03, 4.6127e-04],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #78 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 18.6
+Average Loss: -0.01331
+Timesteps So Far: 312000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([1.1971e-04, 9.9786e-01, 1.6628e-03, 3.5595e-04],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #79 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 20.96
+Average Loss: -0.01049
+Timesteps So Far: 316000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([1.1194e-04, 9.9743e-01, 2.0425e-03, 4.1997e-04],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #80 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 22.49
+Average Loss: -0.00742
+Timesteps So Far: 320000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([1.1030e-04, 9.9723e-01, 2.2176e-03, 4.4665e-04],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #81 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 22.74
+Average Loss: -0.00503
+Timesteps So Far: 324000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([4.6203e-05, 9.9901e-01, 7.9395e-04, 1.4484e-04],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #82 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 23.86
+Average Loss: -0.00702
+Timesteps So Far: 328000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([3.1309e-05, 9.9916e-01, 6.8043e-04, 1.2487e-04],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #83 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 24.24
+Average Loss: -0.00493
+Timesteps So Far: 332000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([1.8729e-05, 9.9927e-01, 6.2714e-04, 8.8000e-05],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #84 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 24.64
+Average Loss: -0.00258
+Timesteps So Far: 336000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([1.2093e-05, 9.9928e-01, 6.2331e-04, 8.4894e-05],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #85 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 24.76
+Average Loss: -0.00186
+Timesteps So Far: 340000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([7.2867e-06, 9.9940e-01, 5.3970e-04, 5.3775e-05],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #86 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 24.88
+Average Loss: -0.00115
+Timesteps So Far: 344000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([3.5674e-06, 9.9962e-01, 3.3846e-04, 3.9935e-05],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #87 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 24.94
+Average Loss: -0.00053
+Timesteps So Far: 348000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([2.3175e-06, 9.9964e-01, 3.2547e-04, 2.9486e-05],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #88 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 24.96
+Average Loss: -0.00048
+Timesteps So Far: 352000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([1.6989e-06, 9.9970e-01, 2.6841e-04, 3.4453e-05],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #89 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 24.96
+Average Loss: -0.00055
+Timesteps So Far: 356000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([2.2443e-06, 9.9957e-01, 3.5791e-04, 6.7157e-05],
+       grad_fn=<SoftmaxBackward0>)
+
+-------------------- Iteration #90 --------------------
+Average Episodic Length: 25.0
+Average Episodic Return: 24.99
+Average Loss: -0.00015
+Timesteps So Far: 360000
+Iteration took: 0.0 secs
+------------------------------------------------------
+
+tensor([2.3666e-06, 9.9953e-01, 4.0349e-04, 6.9029e-05],
+       grad_fn=<SoftmaxBackward0>)
+
+Chosen hyperparameters for training:
+{'history_len': 2, 'timesteps_per_batch': 2000, 'max_timesteps_per_episode': 25, 'gamma': 0.99, 'n_updates_per_iteration': 10, 'lr': 0.01, 'clip': 0.2, 'total_timesteps': 1500000}
+Testing ppo_actor.pth
+
+-------------------- Episode #0 --------------------
+Episodic Length: 200
+Episodic Return: 200
+Failure Rate: 0.0%
+------------------------------------------------------
+
+
+-------------------- Episode #1 --------------------
+Episodic Length: 200
+Episodic Return: 200
+Failure Rate: 0.0%
+------------------------------------------------------
+
+
+-------------------- Episode #2 --------------------
+Episodic Length: 200
+Episodic Return: 200
+Failure Rate: 0.0%
+------------------------------------------------------
+
+
+-------------------- Episode #3 --------------------
+Episodic Length: 200
+Episodic Return: 200
+Failure Rate: 0.0%
+------------------------------------------------------
+
+
+-------------------- Episode #4 --------------------
+Episodic Length: 200
+Episodic Return: 200
+Failure Rate: 0.0%
+------------------------------------------------------
+
+
+-------------------- Episode #5 --------------------
+Episodic Length: 200
+Episodic Return: 200
+Failure Rate: 0.0%
+------------------------------------------------------
+
+
+-------------------- Episode #6 --------------------
+Episodic Length: 200
+Episodic Return: 200
+Failure Rate: 0.0%
+------------------------------------------------------
+
+
+-------------------- Episode #7 --------------------
+Episodic Length: 200
+Episodic Return: 200
+Failure Rate: 0.0%
+------------------------------------------------------
+
+
+-------------------- Episode #8 --------------------
+Episodic Length: 200
+Episodic Return: 200
+Failure Rate: 0.0%
+------------------------------------------------------
+
+
+-------------------- Episode #9 --------------------
+Episodic Length: 200
+Episodic Return: 200
+Failure Rate: 0.0%
+------------------------------------------------------
+
